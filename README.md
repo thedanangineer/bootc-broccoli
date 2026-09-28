@@ -1,6 +1,6 @@
 # bootc-broccoli
 
-!(/scrot/broccoli.png)
+![Screenhot KDE on Gentoo, showing the desktop](/scrot/broccoli.png "KDE 6.7.5 on Gentoo")
 
 Veggies are good for you.
 
