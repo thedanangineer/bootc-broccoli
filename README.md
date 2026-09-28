@@ -8,7 +8,7 @@ Bootc is good for you.
 
 Hence bootc-broccoli, where I mix and stirfry anything.
 
-Currently on the menu: an adjusted Aurora image (KDE by Ublue).
+Currently on the menu: an adjusted Kinoite image (KDE by Ublue).
 
 Bon appetit!
 
