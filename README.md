@@ -1,5 +1,7 @@
 # bootc-broccoli
 
+![Let the veggies rule](/scrot/broccoli.png")
+
 Veggies are good for you.
 
 Bootc is good for you.
