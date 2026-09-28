@@ -1,7 +1,5 @@
 # bootc-broccoli
 
-!(/scrot/broccoli.png)
-
 Veggies are good for you.
 
 Bootc is good for you.
