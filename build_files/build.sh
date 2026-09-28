@@ -25,6 +25,7 @@ dnf5 -y install zoxide
 dnf5 -y install zsh
 
 dnf5 -y remove firefox
+dnf5 -y remove kbd
 dnf5 -y remove kcharselect
 dnf5 -y remove kdebugsettings
 dnf5 -y remove kde-connect
@@ -33,9 +34,7 @@ dnf5 -y remove kdeconnectd
 dnf5 -y remove krfb
 dnf5 -y remove nvtop
 dnf5 -y remove plasma-discover
-dnf5 -y remove plasma-discover-libs
-dnf5 -y remove plasma-discover-notifier
-dnf5 -y remove tecla
+
 
 # Use a COPR Example:
 #
