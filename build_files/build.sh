@@ -25,7 +25,7 @@ dnf5 -y install zoxide
 dnf5 -y install zsh
 
 dnf5 -y remove firefox
-dnf5 -y remove kbd
+dnf5 -y remove kbd-layout-viewer5
 dnf5 -y remove kcharselect
 dnf5 -y remove kdebugsettings
 dnf5 -y remove kde-connect
