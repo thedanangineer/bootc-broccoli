@@ -2,9 +2,9 @@
 
 ![bootc broccoli](/scrot/broccoli.png)
 
-Veggies are good for you.
+It is not all that important.
 
-Bootc is good for you.
+Veggies are good for you. Bootc is good for you.
 
 Hence bootc-broccoli, where I mix and stirfry anything.
 
