@@ -16,9 +16,11 @@ cp -avf "/ctx/system_files"/. /
 dnf5 -y install btop
 dnf5 -y install eza
 dnf5 -y install fastfetch
+dnf5 -y install gwenview
 dnf5 -y install krusader
 dnf5 -y install mc
 dnf5 -y install nnn
+dnf5 -y install okular
 dnf5 -y install zoxide
 dnf5 -y install zsh
 
