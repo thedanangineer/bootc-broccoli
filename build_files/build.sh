@@ -14,6 +14,14 @@ cp -avf "/ctx/system_files"/. /
 
 # this installs a package from fedora repos
 dnf5 install -y tmux
+dnf5 install -y fastfetch
+
+dnf5 -y remove kde-connect
+dnf5 -y remove kde-connect-libs
+dnf5 -y remove kdeconnectd
+dnf5 -y remove plasma-discover
+dnf5 -y remove plasma-discover-libs
+dnf5 -y remove plasma-discover-notifier
 
 # Use a COPR Example:
 #
