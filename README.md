@@ -32,7 +32,7 @@ Currently on the menu: an adjusted Kinoite image (KDE by Ublue).
     plasma-discover
 
 
-From the terminal flatpak and distrobox are available. You can easily install an appstore like Easyflatpak or Bazaar.
+From the terminal flatpak and distrobox are available. You can easily install an appstore like Easyflatpak or Bazaar. I do it from the CLI.
 
 ---------
 
