@@ -6,10 +6,29 @@ It is not all that important.
 
 Veggies are good for you. Bootc is good for you.
 
-Hence bootc-broccoli, where I mix and stir-fry anything.
+Hence bootc-broccoli, where I mix and stir-fry anything. Currently on the menu: an adjusted Kinoite image (KDE by Ublue).
 
-Currently on the menu: an adjusted Kinoite image (KDE by Ublue).
+## Added:
+  btop
+  eza
+  fastfetch
+  gwenview
+  krusader
+  mc
+  nnn
+  okular
+  zoxide
+  zsh
 
-Bon appetit!
+## Removed:
+  firefox
+  kcharselect
+  kdebugsettings
+  kde-connect
+  krfb
+  nvtop
+  plasma-discover
 
+From the terminal flatpak and distrobox are available. You can easily install an appstore like Easyflatpak or Bazaar.
 
+## Bon appetit!
