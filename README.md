@@ -40,7 +40,9 @@ KISS. Install any Fedora-based bootc image first (Silverblue, Kinoite, Bluefin).
 
         sudo bootc switch ghcr.io/thedanangineer/bootc-broccoli
 
+
 Currently the image gets renewed every Wednesday and Saturday, so sit back and relax. 
+
 ---------
 
 Feel free to use these builds and dots. I do not, however, offer or imply any form of support or ongoing maintenance. And of course, you use them entirely at your own risk.
