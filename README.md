@@ -36,7 +36,9 @@ From the terminal flatpak and distrobox are available. You can easily install an
 
 ---------
 
-KISS. Install any Fedora-based bootc image first (Silverblue, Kinoite, Bluefin). Then:
+KISS. Install any Fedora-based bootc image first (Silverblue, Kinoite, Bluefin). 
+
+Then:
 
         sudo bootc switch ghcr.io/thedanangineer/bootc-broccoli
 
