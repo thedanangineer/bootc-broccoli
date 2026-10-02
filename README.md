@@ -8,28 +8,23 @@ Veggies are good for you. Bootc is good for you.
 
 Hence bootc-broccoli, where I mix and stir-fry anything. 
 
-Currently on the menu: an adjusted Kinoite image (KDE by Ublue).
+Currently on the menu: an adjusted base image (base-main by Ublue).
 
 ### Added:
+    @cosmic-desktop-environment
     btop
+    distrobox
     eza
     fastfetch
-    gwenview
-    krusader
+    flatpak
     mc
     nnn
-    okular
     zoxide
     zsh
 
 ### Removed:
     firefox
-    kcharselect
-    kdebugsettings
-    kde-connect
-    krfb
     nvtop
-    plasma-discover
 
 
 From the terminal flatpak and distrobox are available. You can easily install an appstore like Easyflatpak or Bazaar. I do it from the CLI.
