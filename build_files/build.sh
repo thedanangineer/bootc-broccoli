@@ -13,27 +13,19 @@ cp -avf "/ctx/system_files"/. /
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/43/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
+dnf5 -y install @cosmic-desktop-environment
 dnf5 -y install btop
+dnf5 -y install distrobox
 dnf5 -y install eza
 dnf5 -y install fastfetch
-dnf5 -y install gwenview
-dnf5 -y install krusader
+dnf5 -y install flatpak
 dnf5 -y install mc
 dnf5 -y install nnn
-dnf5 -y install okular
 dnf5 -y install zoxide
 dnf5 -y install zsh
 
 dnf5 -y remove firefox
-dnf5 -y remove kbd-layout-viewer5
-dnf5 -y remove kcharselect
-dnf5 -y remove kdebugsettings
-dnf5 -y remove kde-connect
-dnf5 -y remove kde-connect-libs
-dnf5 -y remove kdeconnectd
-dnf5 -y remove krfb
 dnf5 -y remove nvtop
-dnf5 -y remove plasma-discover
 
 
 # Use a COPR Example:
