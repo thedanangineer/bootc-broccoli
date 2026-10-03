@@ -31,7 +31,7 @@ dnf5 -y remove gnome-calculator
 dnf5 -y remove gnome-disk-utility
 dnf5 -y remove gnome-system-monitor
 dnf5 -y remove im-chooser
-dnf5 -y remove libreoffice
+dnf5 -y remove @LibreOffice
 dnf5 -y remove nheko
 dnf5 -y remove nvtop
 dnf5 -y remove okular
