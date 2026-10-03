@@ -23,8 +23,20 @@ Currently on the menu: an adjusted base image (base-main by Ublue).
     zsh
 
 ### Removed:
+    cosmic-edit
     firefox
+    gnome-abrt
+    gnome-calculator
+    gnome-disk-utility
+    gnome-system-monitor
+    im-chooser
+    libreoffice
+    nheko
     nvtop
+    okular
+    rhythmbox
+    system-config-language
+    thunderbird
 
 
 From the terminal flatpak and distrobox are available. You can easily install an appstore like Easyflatpak or Bazaar. I do it from the CLI.
