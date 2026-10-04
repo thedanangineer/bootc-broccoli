@@ -8,7 +8,7 @@ Veggies are good for you. Bootc is good for you.
 
 Hence bootc-broccoli, where I mix and stir-fry anything. 
 
-Currently on the menu: an adjusted base image (base-main by Ublue).
+Currently on the menu: an adjusted Cosmic base image (base-main by Ublue).
 
 ### Added:
     @cosmic-desktop-environment
