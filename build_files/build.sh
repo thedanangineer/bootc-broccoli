@@ -33,7 +33,7 @@ dnf5 -y remove gnome-system-monitor
 dnf5 -y remove im-chooser
 dnf5 -y remove libreoffice-base
 dnf5 -y remove libreoffice-calc
-dnf5 -y remove libreoffice-impression
+dnf5 -y remove libreoffice-impress
 dnf5 -y remove libreoffice-writer
 dnf5 -y remove nheko
 dnf5 -y remove nvtop
