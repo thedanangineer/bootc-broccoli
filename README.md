@@ -16,7 +16,6 @@ Currently on the menu: an adjusted Cosmic base image (base-main by Ublue).
     distrobox
     eza
     fastfetch
-    flatpak
     mc
     nnn
     zoxide
