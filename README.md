@@ -24,6 +24,7 @@ Currently on the menu: an adjusted Cosmic base image (base-main by Ublue).
 
 ### Removed:
     cosmic-edit
+    cosmic-player
     firefox
     gnome-abrt
     gnome-calculator
