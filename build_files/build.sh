@@ -25,6 +25,7 @@ dnf5 -y install zsh
 
 dnf5 -y remove ark
 dnf5 -y remove cosmic-edit
+dnf5 -y remove cosmic-player
 dnf5 -y remove firefox
 dnf5 -y remove gnome-abrt
 dnf5 -y remove gnome-calculator
