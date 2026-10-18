@@ -8,7 +8,9 @@ Veggies are good for you. Bootc is good for you.
 
 Hence bootc-broccoli, where I mix and stir-fry anything. 
 
-Currently on the menu: an adjusted Cosmic base image (base-main by Ublue).
+Currently on the menu: an adjusted Cosmic base image (base-main by Ublue). 
+
+Or something totally different: 18-Oct > experimenting with a KDE image
 
 ### Added:
     @cosmic-desktop-environment
