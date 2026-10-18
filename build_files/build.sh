@@ -18,15 +18,31 @@ dnf5 -y install btop
 dnf5 -y install distrobox
 dnf5 -y install eza
 dnf5 -y install fastfetch
+dnf5 -y install htop
 dnf5 -y install krusader
 dnf5 -y install mc
 dnf5 -y install nnn
 dnf5 -y install zoxide
 dnf5 -y install zsh
 # this removes packages from the install
+dnf5 -y remove abrt
 dnf5 -y remove akonadi
+dnf5 -y remove akregator
+dnf5 -y remove at
+dnf5 -y remove digikam
+dnf5 -y remove dnf-data
+dnf5 -y remove dracut-config-rescue
+dnf5 -y remove dragon
+dnf5 -y remove elisa
 dnf5 -y remove firefox
+dnf5 -y remove gcdmaster
+dnf5 -y remove gnome-disk-utility
+dnf5 -y remove im-chooser
+dnf5 -y remove iptables-services
+dnf5 -y remove iptables-utils
+dnf5 -y remove k3b
 dnf5 -y remove kaddressbook
+dnf5 -y remove kamoso
 dnf5 -y remove kbd-layout-viewer5
 dnf5 -y remove kcharselect
 dnf5 -y remove kcontact
@@ -34,25 +50,34 @@ dnf5 -y remove kdebugsettings
 dnf5 -y remove kde-connect
 dnf5 -y remove kde-connect-libs
 dnf5 -y remove kdeconnectd
+dnf5 -y remove kleopatra
+dnf5 -y remove kmahjongg
 dnf5 -y remove kmail
+dnf5 -y remove kmines
+dnf5 -y remove kmouth
 dnf5 -y remove kolourpaint
 dnf5 -y remove korganizer
+dnf5 -y remove kpat
+dnf5 -y remove ktorrent
+dnf5 -y remove krdc
 dnf5 -y remove krfb
+dnf5 -y remove libreoffice-base
+dnf5 -y remove libreoffice-calc
+dnf5 -y remove libreoffice-impress
+dnf5 -y remove libreoffice-writer
+dnf5 -y remove mariadb-server-utils
+dnf5 -y remove neochat
 dnf5 -y remove nvtop
 dnf5 -y remove plasma-discover
 dnf5 -y remove plasma-discover-offline-updates
 dnf5 -y remove plasma-discover-packagekit
 dnf5 -y remove PackageKit-command-not-found
+dnf5 -y remove qrca
+dnf5 -y remove rsyslog
+dnf5 -y remove skanpage
 dnf5 -y remove tracker
 dnf5 -y remove tracker-miners
-dnf5 -y remove mariadb-server-utils
-dnf5 -y remove abrt
-dnf5 -y remove at
-dnf5 -y remove dnf-data
-dnf5 -y remove iptables-services
-dnf5 -y remove iptables-utils
-dnf5 -y remove rsyslog
-dnf5 -y remove dracut-config-rescue
+
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
