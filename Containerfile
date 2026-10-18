@@ -15,6 +15,9 @@ FROM ghcr.io/ublue-os/base-main:latest
 # Fedora base image: quay.io/fedora/fedora-bootc:44
 # CentOS base images: quay.io/centos-bootc/centos-bootc:stream10
 
+# Preinstall flatpak applications
+COPY flatpak-apps.preinstall /usr/share/flatpak/preinstall.d/
+
 ### [IM]MUTABLE /opt
 ## Some bootable images, like Fedora, have /opt symlinked to /var/opt, in order to
 ## make it mutable/writable for users. However, some packages write files to this directory,
