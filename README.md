@@ -8,37 +8,30 @@ Veggies are good for you. Bootc is good for you.
 
 Hence bootc-broccoli, where I mix and stir-fry anything. 
 
-Currently on the menu: an adjusted Cosmic base image (base-main by Ublue). 
+Currently on the menu: an adjusted KDE base image (based on the latest tag of Fedora-bootc). 
 
-Or something totally different: 18-Oct > experimenting with a KDE image
 
 ### Added:
-    @cosmic-desktop-environment
+    @kde-desktop-environment
     btop
     distrobox
     eza
     fastfetch
+    krusader
     mc
     nnn
     zoxide
     zsh
 
 ### Removed:
-    cosmic-edit
-    cosmic-player
     firefox
-    gnome-abrt
-    gnome-calculator
-    gnome-disk-utility
-    gnome-system-monitor
-    im-chooser
-    libreoffice
-    nheko
+    kbd-layout-viewer5
+    kcharselect
+    kdebugsettings
+    kde-connect
+    krfb
     nvtop
-    okular
-    rhythmbox
-    system-config-language
-    thunderbird
+    plasma-discover
 
 
 From the terminal flatpak and distrobox are available. You can easily install an appstore like Easyflatpak or Bazaar. I do it from the CLI.
