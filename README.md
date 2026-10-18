@@ -8,7 +8,7 @@ Veggies are good for you. Bootc is good for you.
 
 Hence bootc-broccoli, where I mix and stir-fry anything. 
 
-Currently on the menu: an adjusted KDE base image (based on the latest tag of Fedora-bootc). 
+Oct 18, 2026: Currently on the menu: an adjusted KDE base image (based on the latest tag of Fedora-bootc). Expect change over the following days.
 
 
 ### Added:
