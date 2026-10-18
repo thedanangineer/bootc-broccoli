@@ -38,7 +38,7 @@ dnf5 -y remove nvtop
 dnf5 -y remove plasma-discover
 
 # Preinstall flatpak applications
-COPY flatpak-apps.preinstall /usr/share/flatpak/preinstall.d/
+cp flatpak-apps.preinstall /usr/share/flatpak/preinstall.d/
 
 
 # Use a COPR Example:
