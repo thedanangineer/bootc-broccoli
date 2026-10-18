@@ -23,19 +23,36 @@ dnf5 -y install mc
 dnf5 -y install nnn
 dnf5 -y install zoxide
 dnf5 -y install zsh
-
+# this removes packages from the install
+dnf5 -y remove akonadi
 dnf5 -y remove firefox
+dnf5 -y remove kaddressbook
 dnf5 -y remove kbd-layout-viewer5
 dnf5 -y remove kcharselect
+dnf5 -y remove kcontact
 dnf5 -y remove kdebugsettings
 dnf5 -y remove kde-connect
 dnf5 -y remove kde-connect-libs
 dnf5 -y remove kdeconnectd
+dnf5 -y remove kmail
+dnf5 -y remove kolourpaint
+dnf5 -y remove korganizer
 dnf5 -y remove krfb
 dnf5 -y remove nvtop
 dnf5 -y remove plasma-discover
-
-
+dnf5 -y remove plasma-discover-offline-updates
+dnf5 -y remove plasma-discover-packagekit
+dnf5 -y remove PackageKit-command-not-found
+dnf5 -y remove tracker
+dnf5 -y remove tracker-miners
+dnf5 -y remove mariadb-server-utils
+dnf5 -y remove abrt
+dnf5 -y remove at
+dnf5 -y remove dnf-data
+dnf5 -y remove iptables-services
+dnf5 -y remove iptables-utils
+dnf5 -y remove rsyslog
+dnf5 -y remove dracut-config-rescue
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
