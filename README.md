@@ -8,21 +8,26 @@ Veggies are good for you. Bootc is good for you.
 
 Hence bootc-broccoli, where I mix and stir-fry anything. 
 
-Oct 18, 2026: Currently on the menu: an adjusted KDE base image (based on the latest tag of Fedora-bootc). Expect change over the following days.
+Oct 18, 2026: Currently on the menu: an adjusted KDE base image (based on the latest tag of Fedora-bootc).
+
+Reasoning:
+
+    For my work I needed a reliable laptop. In the end I decided to stay as close to the source as possible: Fedora's bootc image, with the 'latest' tag and layer KDE on top of that.
+    
+    In the current KDE implementation on Fedora there are some odd additions being made (Gnome disks? Gnome CD master?) and it comes with a number of included applications. Great for 
+    people starting out in Linux, not so for me.
+
+    The purpose of a bootc image is to be as lean as possible, and applications are layered on top it by using flatpaks, distrobox and homebrew (brew you'll need to add yourself, btw).
+
+    All applications that I removed are easily re-added by flatpak.
 
 
 ### Added:
-    @kde-desktop-environment
-    btop
-    distrobox
-    eza
-    fastfetch
-    htop
-    krusader
-    mc
-    nnn
-    zoxide
-    zsh
+    @kde-desktop-environment        fastfetch                   nnn
+    btop                            htop                        zoxide
+    distrobox                       krusader                    zsh
+    eza                             mc
+    
 
 ### Removed:
     abrt                            kamoso                      ktorrent
@@ -43,10 +48,10 @@ Oct 18, 2026: Currently on the menu: an adjusted KDE base image (based on the la
     iptables-utils                  kolourpaint                 rsyslog
     k3b                             korganizer                  skanpage
     kaddressbook                    kpat                        tracker
-                                                            tracker-miners
+                                                                tracker-miners
 
 
-From the terminal flatpak and distrobox are available. You can easily install an appstore like Easyflatpak or Bazaar. I do it from the CLI.
+From the terminal flatpak and distrobox are available. You can easily install an appstore like Easyflatpak or Bazaar. I install my applications from the CLI.
 
 ---------
 
