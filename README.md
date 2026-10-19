@@ -15,13 +15,12 @@ Oct 18, 2026: Currently on the menu: an adjusted KDE base image (based on the la
 For my work I needed a reliable laptop. In the end I decided to stay as close to the source as possible: 
     Fedora's bootc image, with the 'latest' tag and layer KDE on top of that.
     
-In the current KDE implementation on Fedora there are some odd additions being made (Gnome disks? Gnome CD master?) 
-    and it comes with a number of included applications. 
-    Great for people starting out in Linux, not so for me.
+In the current KDE implementation on Fedora there are some odd additions being made and it 
+comes with a number of included applications. Great for people starting out in Linux, not so for me.
 
 The purpose of a bootc image is to be as lean as possible, and applications are layered on top it by using 
     flatpaks, distrobox and homebrew (brew you'll need to add yourself, btw). All applications that I removed 
-    are easily re-added by flatpak.
+    are easily re-added by flatpak. Check out the lists below.
 
 
 ### Added:
