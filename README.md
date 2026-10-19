@@ -20,9 +20,8 @@ In the current KDE implementation on Fedora there are some odd additions being m
     Great for people starting out in Linux, not so for me.
 
 The purpose of a bootc image is to be as lean as possible, and applications are layered on top it by using 
-    flatpaks, distrobox and homebrew (brew you'll need to add yourself, btw).
-
-All applications that I removed are easily re-added by flatpak.
+    flatpaks, distrobox and homebrew (brew you'll need to add yourself, btw). All applications that I removed 
+    are easily re-added by flatpak.
 
 
 ### Added:
