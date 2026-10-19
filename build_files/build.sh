@@ -33,7 +33,8 @@ dnf5 -y remove digikam
 dnf5 -y remove dnf-data
 dnf5 -y remove dracut-config-rescue
 dnf5 -y remove dragon
-dnf5 -y remove elisa
+dnf5 -y remove elisa-player
+dnf5 -y remove filelight
 dnf5 -y remove firefox
 dnf5 -y remove gcdmaster
 dnf5 -y remove gnome-disk-utility
@@ -44,12 +45,14 @@ dnf5 -y remove k3b
 dnf5 -y remove kaddressbook
 dnf5 -y remove kamoso
 dnf5 -y remove kbd-layout-viewer5
+dnf5 -y remove kcalc
 dnf5 -y remove kcharselect
 dnf5 -y remove kcontact
 dnf5 -y remove kdebugsettings
 dnf5 -y remove kde-connect
 dnf5 -y remove kde-connect-libs
 dnf5 -y remove kdeconnectd
+dnf5 -y remove kfind
 dnf5 -y remove kleopatra
 dnf5 -y remove kmahjongg
 dnf5 -y remove kmail
