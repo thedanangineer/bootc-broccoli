@@ -11,6 +11,8 @@ Hence bootc-broccoli, where I mix and stir-fry anything.
 
 Oct 19, 2026: Currently on the menu: an adjusted KDE base image (based on ublue-os/kinoite-main:beta).
 
+The beta tag will switch back to :latest once F45 has officially been launched.
+
 
 ### Added:
    
