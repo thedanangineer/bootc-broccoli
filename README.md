@@ -1,4 +1,3 @@
-https://github.com/thedanangineer/bootc-broccoli/actions/workflows/build-image-latest-main.yml
 
 # bootc-broccoli
 
