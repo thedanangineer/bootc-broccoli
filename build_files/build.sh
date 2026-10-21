@@ -25,6 +25,7 @@ dnf5 -y install zsh
 # this removes packages from the install
 dnf5 -y remove filelight
 dnf5 -y remove firefox
+dnf5 -y remove kbd-layout-viewer
 dnf5 -y remove kcharselect
 dnf5 -y remove kdebugsettings
 dnf5 -y remove kde-connect
