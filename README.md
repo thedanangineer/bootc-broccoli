@@ -28,7 +28,7 @@ Oct 19, 2026: Currently on the menu: an adjusted KDE base image (based on ublue-
     kdebugsettings         plasma-discover
     kde-connect
 
-From the terminal flatpak and distrobox are available. You can easily install an appstore like Easyflatpak or Bazaar. I install my applications from the CLI.
+From the terminal flatpak and distrobox are available. You can easily install an appstore like Easyflatpak or Bazaar. I install my applications from the cli.
 
 ---------
 
@@ -39,7 +39,7 @@ Then:
         sudo bootc switch ghcr.io/thedanangineer/bootc-broccoli
 
 
-Currently the image gets renewed every Wednesday and Saturday, so sit back and relax. 
+Currently the image gets renewed every Monday, Wednesday and Friday, so sit back and relax. 
 
 ---------
 
