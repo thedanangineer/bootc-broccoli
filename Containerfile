@@ -20,8 +20,6 @@ FROM quay.io/fedora/fedora-bootc:latest
 
 # RUN rm /opt && mkdir /opt
 
-RUN flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-
 ### MODIFICATIONS
 ## make modifications desired in your image and install packages by modifying the build.sh script
 ## the following RUN directive does all the things required to run "build.sh" as recommended.
