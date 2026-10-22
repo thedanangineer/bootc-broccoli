@@ -14,14 +14,13 @@ cp -avf "/ctx/system_files"/. /
 
 # this installs a package from fedora repos
 dnf5 -y install @kde-desktop-environment
-dnf5 -y install btop
 dnf5 -y install distrobox
 dnf5 -y install eza
 dnf5 -y install fastfetch
+dnf5 -y install flatpak
 dnf5 -y install gwenview
 dnf5 -y install krusader
 dnf5 -y install mc
-dnf5 -y install nnn
 dnf5 -y install okular
 dnf5 -y install zoxide
 dnf5 -y install zsh
@@ -43,6 +42,7 @@ dnf5 -y remove plasma-discover
 # dnf5 -y install package
 # Disable COPRs so they don't end up enabled on the final image:
 # dnf5 -y copr disable ublue-os/staging
+RUN flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 #### Example for enabling a System Unit File
 
