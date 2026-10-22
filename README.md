@@ -9,27 +9,30 @@ Veggies are good for you. Bootc is good for you.
 
 Hence bootc-broccoli, where I mix and stir-fry anything. 
 
-Oct 19, 2026: Currently on the menu: an adjusted KDE base image (based on ublue-os/kinoite-main:beta).
+Oct 22, 2026: Currently on the menu: an adjusted KDE base image (based on ublue-os/base-main:beta).
 
 The beta tag will switch back to :latest once F45 has officially been launched.
 
 
 ### Added:
    
-    btop                    mc
-    eza                     nnn   
-    fastfetch               okular
-    gwenview                zoxide
-    krusader                zsh
+    @cosmic-desktop-environment
+    btop                   mc
+    eza                    nnn   
+    fastfetch              zoxide 
+    kitty                  zsh
+                           
   
 
 ### Removed:
 
-    firefox                krfb
-    kbd-layout-viewer5     nvtop   
-    kdebugsettings         plasma-discover
-    kde-connect
-
+    ark                    okular
+    cosmic-edit            nvtop
+    cosmic-player          rhythmbox
+    firefox                thunderbird
+    libreoffice 
+         
+  
 From the terminal flatpak and distrobox are available. You can easily install an appstore like Easyflatpak or Bazaar. I install my applications from the cli.
 
 ---------
