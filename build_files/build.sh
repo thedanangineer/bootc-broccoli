@@ -16,32 +16,22 @@ cp -avf "/ctx/system_files"/. /
 dnf5 -y install @kde-desktop-environment
 dnf5 -y install eza
 dnf5 -y install fastfetch
-dnf5 -y install gwenview
-dnf5 -y install htop
-dnf5 -y install krusader
 dnf5 -y install mc
-dnf5 -y install okular
 dnf5 -y install zoxide
 dnf5 -y install zsh
 
 dnf5 -y remove abrt                            
-dnf5 -y remove akonadi                         
 dnf5 -y remove akregator                   
 dnf5 -y remove digikam                                                 
 dnf5 -y remove dragon                                     
 dnf5 -y remove elisa-player                                   
 dnf5 -y remove filelight
 dnf5 -y remove firefox
-dnf5 -y remove gcdmaster                                          
-dnf5 -y remove gnome-disk-utility                                   
-dnf5 -y remove im-chooser                                            
 dnf5 -y remove k3b                                           
 dnf5 -y remove kaddressbook
 dnf5 -y remove kamoso
-dnf5 -y remove kbd-layout-viewer5
 dnf5 -y remove kcalc
 dnf5 -y remove kcharselect
-dnf5 -y remove kcontact
 dnf5 -y remove kde-connect
 dnf5 -y remove kdebugsettings
 dnf5 -y remove kfind
@@ -56,7 +46,6 @@ dnf5 -y remove kpat
 dnf5 -y remove krdc
 dnf5 -y remove krfb
 dnf5 -y remove ktorrent
-dnf5 -y remove libreoffice-base
 dnf5 -y remove libreoffice-calc
 dnf5 -y remove libreoffice-impress
 dnf5 -y remove libreoffice-writer
@@ -72,8 +61,6 @@ dnf5 -y remove skanpage
 # dnf5 -y install package
 # Disable COPRs so they don't end up enabled on the final image:
 # dnf5 -y copr disable ublue-os/staging
-RUN flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-
 #### Example for enabling a System Unit File
 
 systemctl enable podman.socket
