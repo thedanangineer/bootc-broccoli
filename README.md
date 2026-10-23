@@ -9,9 +9,7 @@ Veggies are good for you. Bootc is good for you.
 
 Hence bootc-broccoli, where I mix and stir-fry anything. 
 
-Oct 22, 2026: Currently on the menu: an adjusted KDE base image (based on ublue-os/base-main:beta).
-
-The beta tag will switch back to :latest once F45 has officially been launched.
+Oct 22, 2026: Currently on the menu: an adjusted Cosmic base image (based on ublue-os/base-main).
 
 
 ### Added:
