@@ -12,36 +12,48 @@ cp -avf "/ctx/system_files"/. /
 # List of rpmfusion packages can be found here:
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/43/x86_64/repoview/index.html&protocol=https&redirect=1
 
-dnf5 -y install @cosmic-desktop-environment
-dnf5 -y install btop
-dnf5 -y install distrobox
+# this installs a package from fedora repos
+dnf5 -y install @kde-desktop-environment
 dnf5 -y install eza
 dnf5 -y install fastfetch
-dnf5 -y install kitty
 dnf5 -y install mc
-dnf5 -y install nnn
 dnf5 -y install zoxide
 dnf5 -y install zsh
 
-dnf5 -y remove ark
-dnf5 -y remove cosmic-edit
-dnf5 -y remove cosmic-player
+dnf5 -y remove abrt                            
+dnf5 -y remove akregator                   
+dnf5 -y remove digikam                                                 
+dnf5 -y remove dragon                                     
+dnf5 -y remove elisa-player                                   
+dnf5 -y remove filelight
 dnf5 -y remove firefox
-dnf5 -y remove gnome-abrt
-dnf5 -y remove gnome-calculator
-dnf5 -y remove gnome-disk-utility
-dnf5 -y remove gnome-system-monitor
-dnf5 -y remove im-chooser
-dnf5 -y remove libreoffice-base
+dnf5 -y remove k3b                                           
+dnf5 -y remove kaddressbook
+dnf5 -y remove kamoso
+dnf5 -y remove kcalc
+dnf5 -y remove kcharselect
+dnf5 -y remove kde-connect
+dnf5 -y remove kdebugsettings
+dnf5 -y remove kfind
+dnf5 -y remove kleopatra
+dnf5 -y remove kmahjongg
+dnf5 -y remove kmail
+dnf5 -y remove kmines
+dnf5 -y remove kmouth
+dnf5 -y remove kolourpaint
+dnf5 -y remove korganizer
+dnf5 -y remove kpat
+dnf5 -y remove krdc
+dnf5 -y remove krfb
+dnf5 -y remove ktorrent
 dnf5 -y remove libreoffice-calc
 dnf5 -y remove libreoffice-impress
 dnf5 -y remove libreoffice-writer
-dnf5 -y remove nheko
+dnf5 -y remove neochat
 dnf5 -y remove nvtop
-dnf5 -y remove okular
-dnf5 -y remove rhythmbox
-dnf5 -y remove system-config-language
-dnf5 -y remove thunderbird
+dnf5 -y remove plasma-discover
+dnf5 -y remove qrca
+dnf5 -y remove skanpage
 
 # Use a COPR Example:
 #
