@@ -20,7 +20,7 @@ dnf5 -y install mc
 dnf5 -y install zoxide
 dnf5 -y install zsh
 
-dnf5 -y remove abrt                            
+                  
 dnf5 -y remove akregator                   
 dnf5 -y remove digikam                                                 
 dnf5 -y remove dragon                                     
