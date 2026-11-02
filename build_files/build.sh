@@ -14,25 +14,20 @@ cp -avf "/ctx/system_files"/. /
 
 # this installs a package from fedora repos
 dnf5 -y install eza
-dnf5 -y install fastfetch
 dnf5 -y install gwenview
 dnf5 -y install krusader
 dnf5 -y install mc
 dnf5 -y install okular
 dnf5 -y install zoxide
-dnf5 -y install zsh
 
 # this removes packages from the install
 dnf5 -y remove filelight
-dnf5 -y remove firefox
-dnf5 -y remove kbd-layout-viewer5
-dnf5 -y remove kcharselect
+dnf5 -y remove input-remapper
 dnf5 -y remove kdebugsettings
 dnf5 -y remove kde-connect
 dnf5 -y remove kfind
-dnf5 -y remove krfb
+dnf5 -y remove ksystemlog
 dnf5 -y remove nvtop
-dnf5 -y remove plasma-discover
 
 # Use a COPR Example:
 #
