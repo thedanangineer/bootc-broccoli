@@ -14,7 +14,6 @@ Nov 1, 2026: Currently on the menu: an adjusted KDE base image (based on ublue-o
 
 ### Added:
    
-    @cosmic-desktop-environment
     mc                     zsh
     eza                       
     fastfetch              zoxide 
