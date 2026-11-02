@@ -6,7 +6,7 @@ COPY system_files /system_files
 # Base Image
 FROM ghcr.io/ublue-os/kinoite-main:latest
 ## Other possible base images include:
-# FROM ghcr.io/ublue-os/aurora:testing
+FROM ghcr.io/ublue-os/aurora:testing
 
 
 ### [IM]MUTABLE /opt
