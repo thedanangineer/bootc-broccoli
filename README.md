@@ -14,18 +14,25 @@ Nov 2, 2026: Currently on the menu: an adjusted Aurora image (based on ublue-os/
 
 ### Added:
    
-    mc                     zsh
-    eza                       
-    fastfetch              zoxide 
-    
-                           
-  
+      gwenview
+      krusader
+      mc
+      okular
+
 ### Removed:
 
-    A shitload of KDE applications
+      filelight
+      input-remapper
+      kdebugsettings
+      kde-connect
+      kfind
+      ksystemlog
+      nvtop
          
   
-From the terminal flatpak and distrobox are available. You can easily install an appstore like Easyflatpak or Bazaar. I install my applications from the cli.
+From the terminal flatpak and distrobox are available. You can easily install an appstore like Easyflatpak. I install my applications from the cli.
+
+Make sure to run "ujust aurora-cli" after first login. It will install things like eza, zoxide and starship for you.
 
 ---------
 
