@@ -13,12 +13,10 @@ cp -avf "/ctx/system_files"/. /
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/43/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-dnf5 -y install eza
 dnf5 -y install gwenview
 dnf5 -y install krusader
 dnf5 -y install mc
 dnf5 -y install okular
-dnf5 -y install zoxide
 
 # this removes packages from the install
 dnf5 -y remove filelight
