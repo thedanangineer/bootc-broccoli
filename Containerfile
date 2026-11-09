@@ -6,8 +6,8 @@ COPY system_files /system_files
 # Base Image
 ## FROM ghcr.io/ublue-os/kinoite-main:latest
 ## Other possible base images include:
-FROM ghcr.io/ublue-os/aurora:testing
-
+## FROM ghcr.io/ublue-os/aurora:testing
+FROM ghcr.io/ublue-os/base-main:latest
 
 ### [IM]MUTABLE /opt
 ## Some bootable images, like Fedora, have /opt symlinked to /var/opt, in order to
