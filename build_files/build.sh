@@ -41,7 +41,7 @@ dnf5 -y remove thunderbird
 # Use a COPR Example:
 #
 sudo dnf copr enable kordus/cosmic-apps
-sudo dnf install snappea
+sudo dnf install /packages/snappea
 # Disable COPRs so they don't end up enabled on the final image:
 dnf -y copr disable kordus/cosmic-apps
 
