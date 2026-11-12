@@ -24,7 +24,6 @@ dnf5 -y install zsh
 dnf5 -y remove ark
 dnf5 -y remove cosmic-edit
 dnf5 -y remove cosmic-player
-dnf5 -y remove cosmic-screenshot
 dnf5 -y remove firefox
 dnf5 -y remove gnome-calculator
 dnf5 -y remove gnome-disk-utility
@@ -40,10 +39,10 @@ dnf5 -y remove thunderbird
 
 # Use a COPR Example:
 #
-sudo dnf copr enable kordus/cosmic-apps
-sudo dnf install /packages/snappea
+# sudo dnf copr enable kordus/cosmic-apps
+# sudo dnf install /packages/snappea
 # Disable COPRs so they don't end up enabled on the final image:
-dnf -y copr disable kordus/cosmic-apps
+# dnf -y copr disable kordus/cosmic-apps
 
 #### Example for enabling a System Unit File
 
