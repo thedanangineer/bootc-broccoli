@@ -14,13 +14,10 @@ cp -avf "/ctx/system_files"/. /
 
 # this installs a package from fedora repos
 dnf5 -y install budgie-desktop
-dnf5 -y install budgie-session
 dnf5 -y install budgie-control-center
 dnf5 -y install budgie-desktop-view
 dnf5 -y install budgie-display-configurator
-dnf5 -y install lightdm
-dnf5 -y install lightdm-gtk
-dnf5 -y install lightdm-gtk-greeter-settings
+dnf5 -y install sddm
 dnf5 -y install alacritty
 dnf5 -y install eza
 dnf5 -y install fastfetch
