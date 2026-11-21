@@ -14,6 +14,11 @@ cp -avf "/ctx/system_files"/. /
 
 # this installs a package from fedora repos
 dnf5 -y install budgie-desktop
+dnf5 -y install budgie-session
+dnf5 -y install budgie-control-center
+dnf5 -y install budgie-desktop-view
+dnf5 -y install budgie-display-configurator
+dnf5 -y install gdm
 dnf5 -y install alacritty
 dnf5 -y install eza
 dnf5 -y install fastfetch
@@ -23,36 +28,7 @@ dnf5 -y install nemo-fileroller
 dnf5 -y install zoxide
 dnf5 -y install zsh
 
-dnf5 -y remove ark
-dnf5 -y remove baobab
-dnf5 -y remove decibels
-dnf5 -y remove dolphin
 dnf5 -y remove firefox
-dnf5 -y remove gnome-calculator
-dnf5 -y remove gnome-calendar
-dnf5 -y remove gnome-characters
-dnf5 -y remove gnome-clocks
-dnf5 -y remove gnome-contacts
-dnf5 -y remove gnome-connections
-dnf5 -y remove gnome-fonts
-dnf5 -y remove gnome-logs
-dnf5 -y remove gnome-maps
-dnf5 -y remove gnome-text-editor
-dnf5 -y remove gnome-weather
-dnf5 -y remove kate
-dnf5 -y remove kcalc
-dnf5 -y remove kde-partitionmanager
-dnf5 -y remove koko
-dnf5 -y remove konsole
-dnf5 -y remove loupe
-dnf5 -y remove nheko
-dnf5 -y remove nvtop
-dnf5 -y remove okular
-dnf5 -y remove papers
-dnf5 -y remove parole
-dnf5 -y remove plasma-discover
-dnf5 -y remove rhythmbox
-dnf5 -y remove snapshot
 
 
 # Use a COPR Example:
