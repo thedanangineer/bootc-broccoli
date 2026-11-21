@@ -21,6 +21,9 @@ dnf5 -y install sddm
 dnf5 -y install alacritty
 dnf5 -y install eza
 dnf5 -y install fastfetch
+dnf5 -y install gvfs
+dnf5 -y install gvfs-client
+dnf5 -y install gvfs-smb
 dnf5 -y install mc
 dnf5 -y install nemo
 dnf5 -y install nemo-fileroller
@@ -32,6 +35,7 @@ dnf5 -y install zsh
 
 dnf5 -y remove firefox
 dnf5 -y remove nvtop
+dnf5 -y remove malcontent
 
 
 # Use a COPR Example:
