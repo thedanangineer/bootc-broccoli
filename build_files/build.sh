@@ -13,7 +13,7 @@ cp -avf "/ctx/system_files"/. /
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/43/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-dnf5 -y install @cosmic-desktop-environment
+dnf5 -y install @budgie-desktop-environment
 dnf5 -y install btop
 dnf5 -y install eza
 dnf5 -y install fastfetch
