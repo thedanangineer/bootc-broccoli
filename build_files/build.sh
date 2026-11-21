@@ -25,13 +25,13 @@ dnf5 -y install gvfs
 dnf5 -y install gvfs-client
 dnf5 -y install gvfs-smb
 dnf5 -y install kitty
-dnf5 -y install ly
 dnf5 -y install mc
 dnf5 -y install nemo
 dnf5 -y install nemo-fileroller
 dnf5 -y install papirus-icon-theme
 dnf5 -y install pocillo-gtk-theme
 dnf5 -y install pocillo-labwc-theme
+dnf5 -y install sddm
 dnf5 -y install zoxide
 dnf5 -y install zsh
 
