@@ -18,17 +18,23 @@ dnf5 -y install budgie-session
 dnf5 -y install budgie-control-center
 dnf5 -y install budgie-desktop-view
 dnf5 -y install budgie-display-configurator
-dnf5 -y install gdm
+dnf5 -y install lightdm
+dnf5 -y install lightdm-gtk
+dnf5 -y install lightdm-gtk-greeter-settings
 dnf5 -y install alacritty
 dnf5 -y install eza
 dnf5 -y install fastfetch
 dnf5 -y install mc
 dnf5 -y install nemo
 dnf5 -y install nemo-fileroller
+dnf5 -y install papirus-icon-theme
+dnf5 -y install pocillo-gtk-theme
+dnf5 -y install pocillo-labwc-theme
 dnf5 -y install zoxide
 dnf5 -y install zsh
 
 dnf5 -y remove firefox
+dnf5 -y remove nvtop
 
 
 # Use a COPR Example:
