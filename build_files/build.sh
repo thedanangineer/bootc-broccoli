@@ -35,7 +35,7 @@ dnf5 -y install zsh
 
 dnf5 -y remove firefox
 dnf5 -y remove nvtop
-dnf5 -y remove malcontent
+
 
 
 # Use a COPR Example:
