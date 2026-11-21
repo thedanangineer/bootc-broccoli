@@ -13,17 +13,19 @@ cp -avf "/ctx/system_files"/. /
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/43/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # this installs a package from fedora repos
-dnf5 -y install budgie-desktop
 dnf5 -y install budgie-control-center
+dnf5 -y install budgie-desktop
 dnf5 -y install budgie-desktop-view
 dnf5 -y install budgie-display-configurator
-dnf5 -y install sddm
 dnf5 -y install alacritty
+dnf5 -y install blueman
 dnf5 -y install eza
 dnf5 -y install fastfetch
 dnf5 -y install gvfs
 dnf5 -y install gvfs-client
 dnf5 -y install gvfs-smb
+dnf5 -y install kitty
+dnf5 -y install ly
 dnf5 -y install mc
 dnf5 -y install nemo
 dnf5 -y install nemo-fileroller
