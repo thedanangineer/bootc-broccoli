@@ -39,10 +39,10 @@ dnf5 -y remove thunderbird
 
 # Use a COPR Example:
 #
-dnf copr enable kordus/cosmic-apps
-dnf install snappea
+# dnf copr enable kordus/cosmic-apps
+# dnf install snappea
 # Disable COPRs so they don't end up enabled on the final image:
-dnf -y copr disable kordus/cosmic-apps
+# dnf -y copr disable kordus/cosmic-apps
 
 #### Example for enabling a System Unit File
 
