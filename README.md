@@ -9,28 +9,27 @@ Veggies are good for you. Bootc is good for you.
 
 Hence bootc-broccoli, where I mix and stir-fry anything. 
 
-Nov 9, 2026: Currently on the menu: an adjusted Cosmic desktop (based on ublue-os/base-main).
+Nov 23, 2026: Currently on the menu: an adjusted KDE desktop, based on the Aurora:testing image.
 
 
 ### Added:
    
-      @cosmic-desktop-environment
-      btop
-      eza
-      fastfetch
+      gwenview
+      krusader
       mc
-      zoxide
+      okular
       zsh
 
 ### Removed:
 
-      cosmic-edit
-      cosmic-player
+      filelight
       firefox
-      gnome-calculator, -disk-utility, -system-monitor
-      libreoffice-base, -calc, -impress, -writer
-      nvtop
-      thunderbird
+      input-remapper
+      kbd-layout-viewer5
+      kdebugsettings
+      kde-connect
+      kfind
+      ksystemlog
          
   
 From the terminal flatpak and distrobox are available. You can easily install an appstore like Easyflatpak. I install my applications from the cli.
